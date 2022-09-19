@@ -1,40 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+
 /*Header*/
 .header{
 	background-color: #0020F4;
 	height: 387.56px;
-	width: 1920px;
+	margin-bottom: 5px; /*გამოყოფილი რომ ყოფილიყო უბრალოდ*/
 }
 header a {
 	color: #FFFFFF;
-	text-decoration: none;
 	font-size: 16px;
 	text-transform: uppercase;
 }
 .logo{
 	width: 115px;
 	height: 65px;
-}
-
-ul {
-	list-style: none;
+	margin-left: 240px;
+	margin-top: 40px;
 }
 .contact {
 	color: #171717;
 	background-color: #FFFFFF;
 	border-radius: 28px;
+	padding: 18px 36px;
+	padding-right: 43px;
+	margin-right: 241px;
+	margin-top: 45px;
 }
 .navlist{
 	textcolor: #FFFFFF;
 }
+/*Header End*/
 
 /*Section*/
 .main-image{
 	width: 1195px;
 	height: 600px;
 	border-radius: 15px;
+	margin-left: 363px;
+}
+.main-image img{
+	width: 100%;
 }
 .main-text{
 	color: #171717;
 	font-size: 28px;
 	text-transform: uppercase;
+	margin: 30px 363px;
+	margin-bottom: 60px;
+}
+.mini-images{
+	margin-left: 363px;
+	margin-bottom: 60px;
+}
+.mini-images img{
+	padding-right: 25px;
+}
+
+.fulltext{
+	margin: 0px 484.5px;
+	margin-bottom: 58px;
+}
+.fulltext p{
+	padding: 18px;
+}
+.moreinfo {
+	color: #FFFFFF;
+	background-color: #0A22F4;
+	border-radius: 28px;
+	padding: 18px 57px;
+	padding-right: 77px;
+	margin: 0px 790px;
+}
+/*Section End*/
+
+/*Footer*/
+.footer{
+	background-color: #0A22F4;
+	height: 1080px;
+	margin-top: 180px;
+}
+.footer img{
+	padding-left: 30px;
+}
+.footer p{
+	padding-right: 15px;
+	padding-bottom: 40px; /*ყველა 40ით არ იყო მაგრამ თითო პიქსელი იყო განსხვავება და აღარ ჩამოვწერე ცალკე*/
+	margin: 0px 240px;
 }
