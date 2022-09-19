@@ -1,0 +1,40 @@
+/*Header*/
+.header{
+	background-color: #0020F4;
+	height: 387.56px;
+	width: 1920px;
+}
+header a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.logo{
+	width: 115px;
+	height: 65px;
+}
+
+ul {
+	list-style: none;
+}
+.contact {
+	color: #171717;
+	background-color: #FFFFFF;
+	border-radius: 28px;
+}
+.navlist{
+	textcolor: #FFFFFF;
+}
+
+/*Section*/
+.main-image{
+	width: 1195px;
+	height: 600px;
+	border-radius: 15px;
+}
+.main-text{
+	color: #171717;
+	font-size: 28px;
+	text-transform: uppercase;
+}
